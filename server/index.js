@@ -18,6 +18,8 @@ mongoose.connect("mongodb://localhost:27017/courses", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   dbName: "courses",
+}).then(()=>{
+    console.log("mongodb connected and running via github cicd");
 });
 
 app.listen(3000, () => console.log("Server running on port 3000"));
