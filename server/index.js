@@ -22,7 +22,7 @@ mongoose
   })
   .then(() => {
     console.log(
-      "mongodb connected and running via github cicd shakalaka bum bum!!!!"
+      "mongodb connected and running via github cicd shakalaka bum bum!!!!!!"
     );
   });
 
